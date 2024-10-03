@@ -1,0 +1,1117 @@
+@import '../src/css/_bootstrap.css';
+
+
+
+.aboutTeam
+{
+  font-size: 30px;
+  margin-top: 130px;
+
+}
+.teamText
+{
+  position: absolute;
+  bottom: 25px;
+}
+
+.teamText1
+{
+  position :absolute;
+  bottom:7px;
+  color:#ff006e;
+}
+
+
+@keyframes diamond-out-center {
+  from {
+    clip-path: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
+  }
+  to {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+}
+
+[transition-style="out:diamond:center"] {
+  animation: 1.5s cubic-bezier(.25, 1, .30, 1) diamond-out-center both;
+}
+
+
+
+
+@media(max-width:1199px)
+{
+
+  .aboutTeam
+  {
+    font-size: 25px;
+    margin-top: 100px;
+  
+  }
+  .teamText
+  {
+    position: absolute;
+    bottom: 25px;
+    font-size: 20px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:7px;
+    font-size: 20px;
+    color:#ff006e;
+  }
+  
+}
+
+@media(max-width:991px)
+{
+
+  .aboutTeam
+  {
+    font-size: 40px;
+    margin-top: 135px;
+  
+  }
+  .teamText
+  {
+    position: absolute;
+    bottom: 25px;
+    font-size: 20px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:7px;
+    font-size: 20px;
+    color:#ff006e;
+  }
+  
+}
+
+
+@media(max-width:767px)
+{
+
+  .aboutTeam
+  {
+    font-size: 60px;
+    margin-top: 225px;
+  
+  }
+  .teamText
+  {
+    position: absolute;
+    bottom: 25px;
+    font-size: 40px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:2px;
+    font-size: 27px;
+    color:#ff006e;
+  }
+  
+}
+
+@media(max-width:500px)
+{
+
+  .aboutTeam
+  {
+    font-size: 50px;
+    margin-top: 225px;
+  
+  }
+  .teamText
+  {
+    position: absolute;
+    bottom: 25px;
+    font-size: 30px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:2px;
+    font-size: 23px;
+    color:#ff006e;
+  }
+  
+}
+
+
+@media(max-width:450px)
+{
+
+  .aboutTeam
+  {
+    font-size: 40px;
+    margin-top: 180px;
+  
+  }
+  
+  
+}
+
+
+@media(max-width:400px)
+{
+
+  .aboutTeam
+  {
+    font-size: 30px;
+    margin-top: 150px;
+  
+  }
+  
+  
+}
+
+
+@media(max-width:330px)
+{
+
+  .aboutTeam
+  {
+    font-size: 30px;
+    margin-top: 120px;
+  
+  }
+  .teamText
+  {
+    position: absolute;
+    bottom: 25px;
+    font-size: 20px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:2px;
+    font-size: 20px;
+    color:#ff006e;
+  }
+
+}
+
+
+  @media(max-width:264px)
+{
+
+  .aboutTeam
+  {
+    font-size: 25px;
+    margin-top: 90px;
+  
+  }
+  .teamText
+  {
+    position: absolute;
+    bottom: 20px;
+    font-size: 17px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:2px;
+    font-size: 17px;
+    color:#ff006e;
+  }
+  
+}
+
+@media(max-width:220px)
+{
+  .aboutTeam
+  {
+    font-size: 20px;
+    margin-top: 80px;
+  }
+  .teamText
+  {
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:2px;
+    font-size: 12px;
+    color:#ff006e;
+  }
+  
+}
+
+@media(max-width:240px)
+{
+
+ 
+  .teamText
+  {
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .teamText1
+  {
+    position :absolute;
+    bottom:2px;
+    font-size: 15px;
+    color:#ff006e;
+  }
+  
+}
+
+
+
+
+.overlays {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+
+.size:hover .overlays
+ {
+  opacity: 0.7;
+}
+
+
+
+.overlay
+{
+background-color: black;
+width: 100%;
+height: 100vh;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  background-color: #03045e;
+  
+    
+}
+
+main
+{
+    flex:  1 0 auto;
+}
+
+
+.back
+{
+
+background-image: linear-gradient(
+    #ee0979,#904e95);
+min-height: 100vh;
+clip-path: circle(90.7% at 0 51%);
+
+}
+
+
+
+.logBtn 
+{
+  background-image: linear-gradient( to right,#8E2DE2, #FF0099);
+  border: none;
+  outline: none;
+  width: 100px;
+  color: white;
+}
+
+.inputWidth
+{
+  width: 40%; 
+}
+
+.inputWidthDesc
+{
+width: 87%;
+}z
+
+
+::placeholder
+{
+    color: white;
+  
+}
+
+.contactBox
+{
+  background-color: #2f2796;
+  
+}
+
+@media (max-width:991px)
+{
+
+  .munro{
+    margin-right:30px;
+  }
+
+}
+
+@media (max-width:767px)
+{
+
+  .munro{
+    margin-left:60px;
+  }
+
+}
+
+
+@media (max-width:576px)
+{
+
+  .munro{
+    margin-left: 106px;
+  }
+
+}
+
+@media (max-width:367px)
+{
+
+  .munro{
+    margin-left: 36px;
+  }
+
+}
+
+@media (max-width:296px)
+{
+
+  .munro{
+    margin-left: 1px;
+  }
+
+}
+
+.backLogin
+{
+
+background-image: linear-gradient(
+    #ee0979,#904e95);
+min-height: 100vh;
+clip-path: circle(90.7% at 0 51%);
+
+}
+
+
+footer
+{
+background-color: #1D2671;
+min-height: 400px;
+}
+
+.textColor
+{
+  background-image: linear-gradient( to right,#8E2DE2, #FF0099);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bottomInput , textarea
+{
+  outline: 0;
+  color:white;
+border: 0;
+border-bottom: 2px solid rgb(255, 255, 255) !important;
+background-color: #2f2796;
+
+}
+
+.bgImg1
+{
+ 
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/Time100-Gala-45.jpg?alt=media&token=f9e7ab7f-c11e-4363-882b-0b6565d02a93');
+  height: 100vh;
+  width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+} 
+
+
+.bgImg2
+{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/hero-image.jpg?alt=media&token=16a96b7b-67a7-48e8-a084-dabde5ff5382');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgImg3
+{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/hero1.jpg?alt=media&token=c8280bb4-afe4-4680-9650-5867c5dad00a');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.navColor
+{
+  background-color: #000000;
+
+}
+
+.imgSet
+{
+    margin-top: 25%;
+    opacity: 0.9;
+}
+
+
+
+.login
+{
+    margin-top: 20%;
+
+}
+
+h1
+{
+
+font-size: 50px;
+font-weight: bold;
+}
+
+.demo{
+ display: block;
+  /* color: white; */
+   color: black;
+  
+ }
+
+ 
+
+ .demo:hover{
+  color: rgb(0, 0, 0);
+ } 
+ 
+ .memo
+ {
+  display: none;
+ }
+
+ .dropdown-toggle::after {
+  display: none;
+}
+.btnLogin
+{
+    background-color: #ff006e;
+    border-radius: 51px;
+    outline: auto;
+    border: 0;
+    width: 80%;
+}
+
+.loginColor
+{
+  color: #ff006e;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+  
+  .container_content_inner {
+    width: 80%;
+    margin-left: 80px;
+  }
+  
+  .container_outer_img {
+    margin: 50px;
+    width: 80%;
+    overflow: hidden;
+  }   
+      
+  .container_img {
+    width: 100%;
+    animation: slideIn 1.5s ease-in-out ;
+    
+  }
+  
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes expand {
+    0% {
+      transform: translateX(1400px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+  
+
+  @media (max-width:991px)
+{
+
+.bgc{
+
+    background-image: linear-gradient( #c31432,  #240b36);
+    background-size:cover ;
+  min-height: 100vh;
+}
+
+.cord {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  background-color: white;
+  margin-right: 110%;
+
+}
+.btnLogin
+{
+    
+    border-radius: 51px;
+    outline: auto;
+    border: 0;
+    width: 100%;
+}
+
+
+
+}
+@media (max-width:1075px)
+{
+
+  .munro{
+    margin-right: 20px;
+  }
+
+}
+
+
+@media (max-width:991px)
+{
+
+  .munro{
+    margin-left: 30px;
+  }
+
+}
+
+@media (max-width:419px)
+{
+
+  .munro{
+    margin-left: 10px;
+  }
+
+}
+
+@media (max-width:320px)
+{
+
+  .munro{
+    margin-left: 1px;
+  }
+
+}
+
+@media (max-width:300px)
+{
+
+  .munro{
+    margin-right: 30px;
+  }
+
+}
+
+/* //////////////////////////////////////////// Register */
+.backReg
+{
+
+
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/038c7f.png?alt=media&token=9dea353b-63a1-42a3-a7ec-25840619a97c');
+min-height: 100vh;
+width: 45%;
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+.welcome
+{
+  margin-top: 30%;
+}
+
+
+
+.green
+{
+  color: #038c7f;
+  
+}
+
+
+
+.greenBtn
+{
+  background-color:#038c7f ;
+  outline: auto;
+  border: 0;
+  width: 70%;
+}
+
+.welcomeReg
+{
+  border: none;
+  background: 0;
+color: white;
+  cursor: pointer;
+  outline: 2px solid #71f3e2;
+}
+
+.welcomeReg:hover {
+  background-color: #24a493;
+  color: white;
+}
+
+
+@media (max-width:991px)
+{
+
+.bgReg{
+
+    background-image: linear-gradient(#11998e,#38ef7d);
+    background-size:cover ;
+  min-height: 100vh;
+}
+
+.cord {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  background-color: white;
+  margin-right: 110%;
+
+}
+
+.btnReg
+{
+    
+    border-radius: 51px;
+    outline: auto;
+    border: 0;
+    width: 100%;
+}
+
+}
+
+/* //////////////////////////////////////// */
+
+.zoomImg
+{
+overflow: hidden;
+}
+
+.zoomImg img
+{
+  transition: all 1.5s ease;
+}
+
+.zoomImg:hover img
+{
+transform: scale(1.5);
+}
+
+
+@media (max-width:786px)
+{
+
+  .off-width {
+  
+    width: 250px !important ;
+  }
+  .off-height {
+  
+    height: 150px !important ;
+  }
+
+}
+
+
+ .backColor {
+  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* 
+///////////////////////////////////////////////////// forgot Password */
+
+
+
+@media (max-width:991px)
+{
+
+.bgf{
+
+    background-image: linear-gradient( #FF512F , #F09819);
+    background-size:cover ;
+  min-height: 100vh;
+}
+
+}
+
+.btnforgot
+{
+    background-color: #ff006e;
+    border-radius: 51px;
+    outline: auto;
+    border: 0;
+    width: 80%;
+    
+}
+
+
+
+/* 
+
+///////////////////////////////////// About
+ */
+
+
+
+.main-content-about
+{
+
+  margin-top: 20%;
+  font-size:300%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+
+}
+
+
+
+.About1_image {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/university-105709_1280.jpg?alt=media&token=4e67b2c1-7f54-453a-9038-1525569e4e6b');
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.eventImg
+{
+  aspect-ratio: 3/2;
+}
+
+
+.About3_image {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/about3.jpg?alt=media&token=c119c94a-2d37-4964-86e1-ff22f8fec0ad');
+  min-height: 50vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.size {
+  position: relative;
+  width: 100%;
+  
+}
+
+.About_image {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/about.jpg?alt=media&token=9384070c-086e-453a-b142-f1fa6e6bbd05');
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+}
+
+ul , li
+{
+  list-style-type: none;
+}
+
+/* 
+////////////////////// footer */
+
+.iconBtn
+{
+  background: none;
+  outline: none;
+  border: 1px solid #47489e;
+  color: white;
+
+}
+
+
+
+/* /////////////////////////////////////////// events */
+
+.home
+{
+min-height: calc(114vh - 100px);
+background-image:
+linear-gradient( rgba(255, 0, 204, 0.5), rgba(51,51,51, 0.5)),
+url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/todoImg.jpg?alt=media&token=b3e40090-823a-41cb-9868-3897088a277d');
+background-size: cover;
+
+}
+
+
+    .cardEvent
+    {
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+        min-width: 20%;
+        background-color: rgb(255, 255, 255);
+        border: 0;      
+        margin-top: 150px;
+        margin-bottom: 50px;
+        background-image: linear-gradient(#C33764,#1D2671);      
+    }
+
+.bottom
+{
+  margin-top: 15%;
+  text-align: center;
+  color: white;
+}
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+/* ////////////////////////////////////////// */
+
+.backColor {
+  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.heroText
+{
+  margin-top: 15%;
+  color:white;
+  font-size:400%;
+  font-family: fantasy;
+  
+}
+
+@media(max-width:1025px) and (max-height:1200px)
+{
+  .heroText
+{
+  margin-top: 300px;
+  color:white;
+  font-size:400%;
+
+  
+}
+}
+
+
+
+
+
+@media(max-width:991px)
+{
+.heroText
+{
+  margin-top: 25%;
+  
+}
+} 
+
+@media(max-width:767px)
+{
+.heroText
+{
+  margin-top: 35%;
+  font-size: 300%;
+  
+  
+}
+}
+
+@media(max-width:538px)
+{
+.heroText
+{
+  margin-top: 45%;
+  font-size: 260%;
+  
+  
+}
+}
+
+@media(max-width:320px)
+{
+.heroText
+{
+  margin-top: 45%;
+  font-size: 180%;
+  }
+}
+
+h2
+{
+
+  font-weight: bold;
+}
+
+.input-icon
+ {
+  position: absolute;
+  right: 10px;
+  top: 32%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.input-search
+ {
+  position: absolute;
+  right: 10px;
+  top: 44%;
+
+}
+
+
+
+
+.cardShadow
+{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+
+
+.hero_image {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/eventapp-ceb2c.appspot.com/o/service-hero.jpg?alt=media&token=78a3c692-5b3e-49cd-9ac7-10b003cdff7b');
+  min-height: 40vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 10%;
+
+}
+
+
+.overlayhome{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 40vh;
+}
+
+
+
+.layout
+{
+  position: relative;
+  bottom: 115px;
+}
+
+.layout1
+{
+  position: relative;
+  bottom: 110px;
+}
+
+.layout2
+{
+  position: relative;
+  bottom: 90px;
+}
+
+
+.date
+{
+position: absolute;
+font-size: 50px;
+height: 100px;
+width: 100px;
+transform: translateY(-50%);
+bottom: 447px;
+z-index: 1;
+background-color: rgb(0, 0, 0);
+}
+
+
+
+
